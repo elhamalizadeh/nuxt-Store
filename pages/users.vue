@@ -2,6 +2,7 @@
   <div>
     <Menu />
     <div class="container gy-5">
+         <h2>List of users</h2>
      <div class="col-6 gy-5" v-for="user in users" :key="user.id">
  <usercardview :user="user" />
     </div>

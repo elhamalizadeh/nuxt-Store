@@ -1,9 +1,11 @@
 <template>
-  <NuxtLayout>
-    <Menu />
+<div>
+  <Menu />
+  <div class="container">
     <h1>About page</h1>
     some page content
-  </NuxtLayout>
+  </div>
+  </div>
 </template>
 
 <script>

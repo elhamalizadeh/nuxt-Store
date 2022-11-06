@@ -1,6 +1,7 @@
 <template>
 <div>
-    <Menu />
+  <Menu />
+  <div class="container">
     <h1>Services</h1>
   <div class="container col-6 gy-5">
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
@@ -51,6 +52,7 @@
       <b-button type="submit" variant="primary">Submit</b-button>
       <b-button type="reset" variant="danger">Reset</b-button>
     </b-form>
+  </div>
   </div>
   </div>
 </template>
