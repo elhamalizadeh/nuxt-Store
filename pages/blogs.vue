@@ -8,6 +8,15 @@
 </template>
 <script>
 export default {
-
+  head: {
+    title: 'Blog archive',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'this is the blog list page'
+      }
+    ]
+  }
 }
 </script>

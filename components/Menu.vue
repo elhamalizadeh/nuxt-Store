@@ -10,6 +10,8 @@
         <b-nav-item href='./about'>About</b-nav-item>
         <b-nav-item href='../services'>Services</b-nav-item>
         <b-nav-item href='../blogs'>Blogs</b-nav-item>
+        <b-nav-item href='../contact'>Contact us</b-nav-item>
+        <b-nav-item href='../shop'>Shop</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->

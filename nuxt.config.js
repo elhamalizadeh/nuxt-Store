@@ -1,14 +1,14 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Shop1',
+    title: 'ShopStore',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'this is a Book Sop that deliver best novels' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -38,8 +38,18 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    //adding sitemap
+    '@nuxtjs/sitemap',
+     // Simple usage
+     '@nuxtjs/robots',
+     // With options
+     ['@nuxtjs/robots', { /* module options */ }]
   ],
+  robots: {
+    UserAgent: '*',
+    Disallow: '/user2',
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
