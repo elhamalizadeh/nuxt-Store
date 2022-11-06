@@ -8,7 +8,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'this is a Book Sop that deliver best novels' },
+      { hid: 'description', name: 'description', content: 'this is a Book Shop that deliver best novels' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [

@@ -57,6 +57,16 @@
 
 <script>
 export default {
+  head: {
+    title: 'Service page',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'this is our services'
+      }
+    ]
+  },
   data () {
     return {
       form: {
